@@ -59,9 +59,7 @@ services:
       OPENSEARCH_HOSTS: '["http://opensearch-node1:9200"]'
       DISABLE_SECURITY_DASHBOARDS_PLUGIN: true
 
-# NOTE: As of 2026-01-15 pinecone-local still only supports API version 2025-01 which requires SDK 6.*.
-# https://community.pinecone.io/t/pineconeapiexception-422-reason-unprocessable-entity/8196
-# Also at https://community.pinecone.io/signup, "New account registrations are not allowed at this time."
+  # NOTE: As of 2026-01-15 pinecone-local still only supports API version 2025-01 which requires SDK 6.*
   pinecone:
     image: ghcr.io/pinecone-io/pinecone-local:latest
     environment:
