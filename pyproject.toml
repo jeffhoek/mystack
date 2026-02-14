@@ -1,9 +1,9 @@
 [project]
-name = "mystack"
+name = "compose-containers"
 version = "0.1.0"
-description = "Add your description here"
+description = "Docker/Podman Compose stack for training, and generative AI development, and solution prototyping."
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.12"
 dependencies = [
     "pinecone[asyncio,grpc]==6.*",
 ]

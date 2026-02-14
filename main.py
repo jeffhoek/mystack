@@ -1,5 +1,5 @@
 def main():
-    print("Hello from mystack!")
+    print("Hello from compose-containers!")
 
 
 if __name__ == "__main__":
